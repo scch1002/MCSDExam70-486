@@ -1,0 +1,11 @@
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\bin\Debug\netcoreapp2.0\DesignACachingStrategy.deps.json
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\bin\Debug\netcoreapp2.0\DesignACachingStrategy.runtimeconfig.json
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\bin\Debug\netcoreapp2.0\DesignACachingStrategy.runtimeconfig.dev.json
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\bin\Debug\netcoreapp2.0\DesignACachingStrategy.dll
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\bin\Debug\netcoreapp2.0\DesignACachingStrategy.pdb
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\obj\Debug\netcoreapp2.0\DesignACachingStrategy.csprojAssemblyReference.cache
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\obj\Debug\netcoreapp2.0\DesignACachingStrategy.csproj.CoreCompileInputs.cache
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\obj\Debug\netcoreapp2.0\DesignACachingStrategy.AssemblyInfoInputs.cache
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\obj\Debug\netcoreapp2.0\DesignACachingStrategy.AssemblyInfo.cs
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\obj\Debug\netcoreapp2.0\DesignACachingStrategy.dll
+D:\Github\MCSDExam70-486\DesignTheApplicationArchitecture\DesignACachingStrategy\obj\Debug\netcoreapp2.0\DesignACachingStrategy.pdb

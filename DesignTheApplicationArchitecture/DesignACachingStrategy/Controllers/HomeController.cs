@@ -10,22 +10,22 @@ namespace DesignACachingStrategy.Controllers
 {
     public class HomeController : Controller
     {
+    //  https://docs.microsoft.com/en-us/aspnet/core/performance/caching/response?view=aspnetcore-2.2
+
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
+        //  https://docs.microsoft.com/en-us/aspnet/core/performance/caching/response?view=aspnetcore-2.2
+        [ResponseCache(NoStore=true, Duration=10)]
+        public IActionResult CacheNoStore() 
+        {            
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult DonutHoleCaching() 
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
