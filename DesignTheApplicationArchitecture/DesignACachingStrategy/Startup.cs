@@ -22,6 +22,10 @@ namespace DesignACachingStrategy
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDistributedRedisCache(options => {
+                options.Configuration = "localhost";
+                options.InstanceName = "Test";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
