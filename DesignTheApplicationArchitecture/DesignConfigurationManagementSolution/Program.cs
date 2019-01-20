@@ -19,6 +19,11 @@ namespace DesignConfigurationManagementSolution
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    config.AddJsonFile("prototypeSettings.json", optional: false, reloadOnChange: false);
+                    config.AddCommandLine(args);
+                })
                 .UseStartup<Startup>()
                 .Build();
     }

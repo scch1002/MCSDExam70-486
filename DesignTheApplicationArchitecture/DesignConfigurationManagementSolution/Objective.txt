@@ -1,0 +1,52 @@
+    1. Manage configuration sources, including XML, JSON and INI files
+	
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#file-configuration-provider
+
+
+Notes:
+	https://weblog.west-wind.com/posts/2017/Dec/12/Easy-Configuration-Binding-in-ASPNET-Core-revisited
+
+
+Remarks:
+	The example for prototype configuration does not include the bind option. If I have time I will come back and investigate this feature further.
+
+
+	2. Manage environment variables
+	
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#environment-variables-configuration-provider
+
+
+	3. Implement Option Objects
+
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-2.2
+
+
+
+	4. Implement multiple environments using files and hierarchical structures
+
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#hierarchical-configuration-data
+
+
+
+	5. Manage sensitive configuration
+
+https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows
+https://app.pluralsight.com/library/courses/asp-dot-net-core-security-understanding/table-of-contents
+
+
+
+	6. React to runtime configuration changes
+
+	7. Implement a custom configuration source
+
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#custom-configuration-provider
+
+
+
+	8. Secure configuration by using Azure Key Vault
+
+https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-2.2
+
+
+
+	9. Use the Secret Manager tool in development to keep secrets out of your code for configuration values
