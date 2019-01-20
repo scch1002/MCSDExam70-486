@@ -1,43 +1,45 @@
     1. Manage configuration sources, including XML, JSON and INI files
 	
-https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#file-configuration-provider
+		https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#file-configuration-provider
 
+		Notes:
+			https://weblog.west-wind.com/posts/2017/Dec/12/Easy-Configuration-Binding-in-ASPNET-Core-revisited
 
-Notes:
-	https://weblog.west-wind.com/posts/2017/Dec/12/Easy-Configuration-Binding-in-ASPNET-Core-revisited
-
-
-Remarks:
-	The example for prototype configuration does not include the bind option. If I have time I will come back and investigate this feature further.
+		Remarks:
+			The example for prototype configuration does not include the bind option. If I have time I will come back and investigate this feature further.
 
 
 	2. Manage environment variables
 	
-https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#environment-variables-configuration-provider
+		https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#environment-variables-configuration-provider
 
+		Remark:
+			This is very similar to objective 1 and does not require another prototype.		
 
-	3. Implement Option Objects
+	3. Implement Option Objects (not required, implmenet if time allows)
 
-https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-2.2
+		https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-2.2
 
+	4. Implement multiple environments using files and hierarchical structures (not required, implmenet if time allows)
 
+		https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#hierarchical-configuration-data
 
-	4. Implement multiple environments using files and hierarchical structures
+		Remark:
+			This objective is simple in concept and I am not concerned about understanding the cert questions related to it.
 
-https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#hierarchical-configuration-data
+	5. Manage sensitive configuration (complex and indepth, implmenet later)
 
+		https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows
+		https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/configuration/?view=aspnetcore-2.2
 
+		The ASP.NET Core data protection stack is designed to serve as the long-term replacement for the <machineKey> element in ASP.NET 1.x - 4.x.
 
-	5. Manage sensitive configuration
+		Remark:
+			Will return to this objective. It is very indepth and should be returned to after other sections and objectives have been completed.
 
-https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows
-https://app.pluralsight.com/library/courses/asp-dot-net-core-security-understanding/table-of-contents
+	6. React to runtime configuration changes (Prototype not required, This is a simple switch on the configuration setup call)
 
-
-
-	6. React to runtime configuration changes
-
-	7. Implement a custom configuration source
+	7. Implement a custom configuration source (not required, implmenet if time allows)
 
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.2#custom-configuration-provider
 
