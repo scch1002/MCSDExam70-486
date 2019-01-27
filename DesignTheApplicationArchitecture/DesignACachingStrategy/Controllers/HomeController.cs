@@ -31,6 +31,7 @@ namespace DesignACachingStrategy.Controllers
             return View();
         }
 
+        //Donute hole caching is not used in Asp.net Core. Instead view components are used.
         public IActionResult DonutHoleCaching() 
         {
             return View();
